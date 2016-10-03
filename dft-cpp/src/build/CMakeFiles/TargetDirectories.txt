@@ -1,0 +1,3 @@
+/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/build/CMakeFiles/edit_cache.dir
+/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/build/CMakeFiles/rebuild_cache.dir
+/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/build/CMakeFiles/dft.dir

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/dft.dir/main.cpp.o  -o dft /usr/local/Cellar/gsl/1.16/lib/libgsl.dylib /usr/local/Cellar/gsl/1.16/lib/libgslcblas.dylib /usr/local/lib/libarmadillo.dylib 

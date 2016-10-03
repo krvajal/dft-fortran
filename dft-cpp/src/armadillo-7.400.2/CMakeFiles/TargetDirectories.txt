@@ -1,0 +1,7 @@
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/edit_cache.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/rebuild_cache.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/install/local.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/list_install_components.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/install.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/install/strip.dir
+/Users/carvajal/ClionProjects/dft/armadillo-7.400.2/CMakeFiles/armadillo.dir

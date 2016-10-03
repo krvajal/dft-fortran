@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -I/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/include -I/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/odeint/include -I/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/armadillo-7.400.2 -I/usr/local/Cellar/gsl/1.16/include   -std=c++11 -g   -o CMakeFiles/dft.dir/main.cpp.o -c /Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/main.cpp",
+  "file": "/Users/carvajal/Dropbox/Maestria/dft/dft-cpp/src/main.cpp"
+}
+]

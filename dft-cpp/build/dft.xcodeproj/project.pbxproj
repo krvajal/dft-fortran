@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0E7D2C5D25BC48329BF17A78 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BCDB237612FD4936B7F2CEA3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4E3648B4029A457AA7933741 /* CMake Rules */,
+			);
+			dependencies = (
+				F1190331D9C34D3587319BF5 /* PBXTargetDependency */,
+				93D0F4298DFC44CEBDD80357 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5FE4E2490B124DDCA85A77B5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8A3C3B91BD24F11BAB0B655 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				60CF0864C03A4A42BCA38E98 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5FC98E3101BC46718D7DB2D3 /* /Users/carvajal/ClionProjects/dft/verlet.h */ = {isa = PBXBuildFile; fileRef = C00A0D01E26A4B4997AD4894 /* /Users/carvajal/ClionProjects/dft/verlet.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9F1A381F9B314FEFA81E50C4 /* /Users/carvajal/ClionProjects/dft/quad/quad.h */ = {isa = PBXBuildFile; fileRef = FE65919CA0B14B6F8F3E6525 /* /Users/carvajal/ClionProjects/dft/quad/quad.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A6A3A8F015AE4BB886533E2F /* /Users/carvajal/ClionProjects/dft/main.cpp */ = {isa = PBXBuildFile; fileRef = E46D713A7AEA4F58AB70C728 /* /Users/carvajal/ClionProjects/dft/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F15CBF666BDB4BEE83F93466 /* /Users/carvajal/ClionProjects/dft/quad/quad_simpson.h */ = {isa = PBXBuildFile; fileRef = 40DA6C3FBCBC4F50943E870C /* /Users/carvajal/ClionProjects/dft/quad/quad_simpson.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD8AC1674D624C7AA6CD0DD5 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2A7F0CF470474CF59A9E83D0 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5E9EF383FC3C45AC8B8DD8B4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		76EA43296ACD49F9BB420FA0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7C27A4C67E8242269620530D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D4E8B9FB559044ACB15AB976 = {
+			isa = PBXBuildStyle;
+		};
+		FDF1EA654C5C4B8E8D6FD9CF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9B9487339E4692BAA5934F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DB44D606AD4C398C6AFBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC3D019E3E049FD8CC2F865;
+			remoteInfo = dft;
+		};
+		AC0BDFCC01154A73A0D453D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DB44D606AD4C398C6AFBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE4E2490B124DDCA85A77B5;
+			remoteInfo = ZERO_CHECK;
+		};
+		FFB01D2F0B4245CC92404341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DB44D606AD4C398C6AFBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE4E2490B124DDCA85A77B5;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D64988319E4FC4B8F0F3B8 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2A7F0CF470474CF59A9E83D0 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		40DA6C3FBCBC4F50943E870C /* /Users/carvajal/ClionProjects/dft/quad/quad_simpson.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quad_simpson.h; path = quad/quad_simpson.h; sourceTree = SOURCE_ROOT; };
+		7DC4E03CA52A4B8B9F699FE2 /* dft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = dft; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00A0D01E26A4B4997AD4894 /* /Users/carvajal/ClionProjects/dft/verlet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = verlet.h; path = verlet.h; sourceTree = SOURCE_ROOT; };
+		E46D713A7AEA4F58AB70C728 /* /Users/carvajal/ClionProjects/dft/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		F245C4C96B20451E959C5A52 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE65919CA0B14B6F8F3E6525 /* /Users/carvajal/ClionProjects/dft/quad/quad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quad.h; path = quad/quad.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		161E0E92331044B2B7CE1CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC4E03CA52A4B8B9F699FE2 /* dft */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301606F5A7D94ACFAE84FD7F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE65919CA0B14B6F8F3E6525 /* /Users/carvajal/ClionProjects/dft/quad/quad.h */,
+				40DA6C3FBCBC4F50943E870C /* /Users/carvajal/ClionProjects/dft/quad/quad_simpson.h */,
+				C00A0D01E26A4B4997AD4894 /* /Users/carvajal/ClionProjects/dft/verlet.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		380C0BC4E01F44FBB499D8E1 = {
+			isa = PBXGroup;
+			children = (
+				9073EDAA5B6748E5841C7D35 /* Sources */,
+				CE32FD701CE24550897AC0B0 /* Resources */,
+				161E0E92331044B2B7CE1CB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2E84C2CC0649FCA2063A2C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CF67C9B6AC81466F96CE45DF /* CMake Rules */,
+				15D64988319E4FC4B8F0F3B8 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5C70854B11614472A3421902 /* dft */ = {
+			isa = PBXGroup;
+			children = (
+				E15D261248F947DCA33406EF /* Source Files */,
+				301606F5A7D94ACFAE84FD7F /* Header Files */,
+				2A7F0CF470474CF59A9E83D0 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */,
+			);
+			name = dft;
+			sourceTree = "<group>";
+		};
+		9073EDAA5B6748E5841C7D35 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5C70854B11614472A3421902 /* dft */,
+				3D2E84C2CC0649FCA2063A2C /* ALL_BUILD */,
+				A34F2A4C1AD94C6091E74FD3 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		94134FCD7F8A40149DA3318F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A34F2A4C1AD94C6091E74FD3 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				94134FCD7F8A40149DA3318F /* CMake Rules */,
+				F245C4C96B20451E959C5A52 /* /Users/carvajal/ClionProjects/dft/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		CE32FD701CE24550897AC0B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF67C9B6AC81466F96CE45DF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E15D261248F947DCA33406EF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46D713A7AEA4F58AB70C728 /* /Users/carvajal/ClionProjects/dft/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC3D019E3E049FD8CC2F865 /* dft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F58DFBD4454238A69EC45E /* Build configuration list for PBXNativeTarget "dft" */;
+			buildPhases = (
+				972A8628FA2A479BA2867460 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D604A5F9E29E463484768E34 /* PBXTargetDependency */,
+			);
+			name = dft;
+			productName = dft;
+			productReference = 7DC4E03CA52A4B8B9F699FE2 /* dft */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46DB44D606AD4C398C6AFBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = A2BE7E8238314EDC8B92629E /* Build configuration list for PBXProject "dft" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5E9EF383FC3C45AC8B8DD8B4 /* Debug */,
+				FDF1EA654C5C4B8E8D6FD9CF /* Release */,
+				76EA43296ACD49F9BB420FA0 /* MinSizeRel */,
+				7C27A4C67E8242269620530D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 380C0BC4E01F44FBB499D8E1;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0E7D2C5D25BC48329BF17A78 /* ALL_BUILD */,
+				5FE4E2490B124DDCA85A77B5 /* ZERO_CHECK */,
+				DCC3D019E3E049FD8CC2F865 /* dft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E3648B4029A457AA7933741 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/carvajal/ClionProjects/dft/build -f /Users/carvajal/ClionProjects/dft/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		60CF0864C03A4A42BCA38E98 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/carvajal/ClionProjects/dft/build -f /Users/carvajal/ClionProjects/dft/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		62C1F5B9C3A84C67B097D7BB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D3B571E46FBB41F2AC8327C0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972A8628FA2A479BA2867460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3A8F015AE4BB886533E2F /* /Users/carvajal/ClionProjects/dft/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D0F4298DFC44CEBDD80357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE4E2490B124DDCA85A77B5 /* ZERO_CHECK */;
+			targetProxy = AC0BDFCC01154A73A0D453D3 /* PBXContainerItemProxy */;
+		};
+		D604A5F9E29E463484768E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE4E2490B124DDCA85A77B5 /* ZERO_CHECK */;
+			targetProxy = FFB01D2F0B4245CC92404341 /* PBXContainerItemProxy */;
+		};
+		F1190331D9C34D3587319BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC3D019E3E049FD8CC2F865 /* dft */;
+			targetProxy = 3F9B9487339E4692BAA5934F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08F934BB7A724698A9B5E5E9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		0DD55A3F9F71454E885C3C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/gsl/1.16/lib/libgsl.dylib /usr/local/Cellar/gsl/1.16/lib/libgslcblas.dylib /usr/local/lib/libarmadillo.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		368D46751DAD4EF594417C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		46FE8CA2B69F496ABBD44FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		65270637AAD5472086F11575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/gsl/1.16/lib/libgsl.dylib /usr/local/Cellar/gsl/1.16/lib/libgslcblas.dylib /usr/local/lib/libarmadillo.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6DB4C97394BE444F921F1F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build/build;
+			};
+			name = Debug;
+		};
+		6F533F357C834011A38315BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/gsl/1.16/lib/libgsl.dylib /usr/local/Cellar/gsl/1.16/lib/libgslcblas.dylib /usr/local/lib/libarmadillo.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8002708AFAA24E06B183C624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		91D1C784DF0041A2815D1308 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		9687929B6B0E40D98A571AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		96CA44AA862141DEB6542B07 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build/build;
+			};
+			name = MinSizeRel;
+		};
+		A2BD40534210400489EF7825 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/gsl/1.16/lib/libgsl.dylib /usr/local/Cellar/gsl/1.16/lib/libgslcblas.dylib /usr/local/lib/libarmadillo.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		A67CB356BE81468D94C3EEE9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		AFE2E1A11BFA4623ADF21CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build/build;
+			};
+			name = Release;
+		};
+		E5E1F12BE253425DAA096653 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F3695A5624AD4A09B39503C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/carvajal/ClionProjects/dft/odeint/include, "/Users/carvajal/ClionProjects/dft/armadillo-7.400.2", /usr/local/Cellar/gsl/1.16/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/carvajal/ClionProjects/dft/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2BE7E8238314EDC8B92629E /* Build configuration list for PBXProject "dft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB4C97394BE444F921F1F8A /* Debug */,
+				AFE2E1A11BFA4623ADF21CDC /* Release */,
+				96CA44AA862141DEB6542B07 /* MinSizeRel */,
+				E5E1F12BE253425DAA096653 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8A3C3B91BD24F11BAB0B655 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9687929B6B0E40D98A571AAB /* Debug */,
+				8002708AFAA24E06B183C624 /* Release */,
+				F3695A5624AD4A09B39503C8 /* MinSizeRel */,
+				91D1C784DF0041A2815D1308 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCDB237612FD4936B7F2CEA3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368D46751DAD4EF594417C1F /* Debug */,
+				46FE8CA2B69F496ABBD44FD2 /* Release */,
+				08F934BB7A724698A9B5E5E9 /* MinSizeRel */,
+				A67CB356BE81468D94C3EEE9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7F58DFBD4454238A69EC45E /* Build configuration list for PBXNativeTarget "dft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65270637AAD5472086F11575 /* Debug */,
+				0DD55A3F9F71454E885C3C51 /* Release */,
+				A2BD40534210400489EF7825 /* MinSizeRel */,
+				6F533F357C834011A38315BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46DB44D606AD4C398C6AFBD6 /* Project object */;
+}
